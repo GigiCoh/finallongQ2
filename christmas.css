@@ -1,0 +1,155 @@
+body{
+	margin: 0;
+}
+
+	.top{
+		width: 100%;
+		height: 200px;
+	}
+
+	.flex{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.box{
+			width: 70%;
+			
+		}
+
+		.pic{
+			width: 70%;
+			margin-left: 20%;
+		}
+
+	strong{
+		margin-left: 20%;
+	}
+
+	.space{
+		height: 20px;
+	}
+
+	form{
+		border: 1px solid black;
+		padding: 10px;
+		margin-bottom: 10px;
+	}
+
+	.topnav{
+   		 border:2px solid black;
+    	 padding-bottom: 10px;
+    	 background-color: black;
+	}
+
+	.main{
+		list-style-type:none; 
+		display: none;
+	}
+
+	.navbar-toggle{
+  		 position: absolute;
+  		 top:10px;
+  		 right: 70px;
+  		 cursor: pointer;
+  		 font-size:20px; 
+  		 color: white;
+	}
+
+	.links,.logo{
+		text-decoration: none;
+		color: white;
+	}
+
+	.logo{
+	  	display: inline-block;
+	  	margin: 10px 15px;
+	}
+
+	li{
+		text-align:center;
+		margin:15px auto; 
+	}
+
+	i{
+		text-align: center;
+		margin: 10px;
+		color: white;
+	}
+
+	.active
+{
+	display: block;
+}
+
+.gift{
+	width: 50%;
+}
+
+p{
+	font-size: 20px;
+}
+
+strong, h2{
+	font-family: 'PT Serif', serif;
+}
+
+strong{
+	font-size: 18px;
+}
+
+@media screen and (min-width: 768px){
+	.topnav
+	{
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 0;
+		height: 70px;
+		align-items: center;
+	}
+
+	.main
+	{
+		display:flex;
+		margin-right: 30px;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+
+	li{
+		margin: 0;
+	}
+
+	.links{
+		margin-left: 40px;
+	}
+
+	.navbar-toggle
+	{
+		display:none;
+	}
+
+	.main i{
+		display: none;
+	}
+
+	.flex{
+		display: flex;
+		flex-direction: row;
+		margin-left: 20px;
+	}
+
+	.pic{
+		width: 70%;
+	}
+
+	.flex2{
+		display: flex;
+	}
+
+	.flex2 img{
+		margin-left: 60px;
+	}
+
+}
